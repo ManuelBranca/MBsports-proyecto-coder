@@ -108,6 +108,25 @@ footer {
     padding: 3px;
 }
 
+.edicion-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 5px;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 200px;
+}
+
 @media (min-width: 0px) and (max-width: 600px) {
 
     footer {
@@ -125,6 +144,12 @@ footer {
 
     .edicion-footer {
         display: none;
+    }
+
+    .div-logos {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
 }
 
@@ -159,13 +184,14 @@ main section h4 {
     text-align: center;
     margin: 5px;
     padding: 10px;
+    border-bottom: solid black;
 }
 
 /* Index */
 
 /* Img principal index */
 .img_principal {
-    width: 100vw;
+    width: 98.7vw;
     ;
 }
 
@@ -183,6 +209,7 @@ main section h4 {
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
+    border: solid black;
 }
 
 /* titulo Quienes somos */
@@ -205,6 +232,7 @@ main section h4 {
 .no_div {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
+    border: solid black;
     margin: 50px;
     display: flex;
     justify-content: start;
@@ -239,6 +267,7 @@ main section h4 {
 
 .no_texto {
     padding: 10px;
+    padding-right: 15px;
     text-align: justify;
     width: 300px;
     margin: 5px;
@@ -259,6 +288,7 @@ main section h4 {
 .art_df2 {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
+    border: solid black;
     width: 310px;
 }
 
@@ -274,6 +304,7 @@ main section h4 {
 .t_df {
     text-align: justify;
     margin: 5px;
+    padding-right: 5px;
     width: 300px;
     font-size: 1rem;
 }
@@ -291,6 +322,7 @@ main section h4 {
 .tc_div2 {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
+    border: solid black;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
@@ -325,9 +357,9 @@ main section h4 {
 /* img Nuestro objetivo */
 .no_foto {
     padding: 10px;
+    padding-left: 3px;
     border-radius: 20px;
     width: 300px;
-    margin: 5px;
 }
 
 /* img deporte favorito */
@@ -336,6 +368,7 @@ main section h4 {
     display: flex;
     justify-content: center;
     margin: 5px;
+    padding-right: 5px;
 }
 
 /* img titulo cualquiera */
@@ -345,15 +378,28 @@ main section h4 {
     width: 300px;
 }
 
+@media (max-width: 600px) {
+
+
+    .no_foto {
+        padding: 0px;
+        padding: 10px;
+    }
+
+}
+
 @media (min-width: 601px) and (max-width: 1024) {}
 
 /* ============= Qatar 2022 =============== */
 /* titulos principales */
 
-.div_titulosprincipalesqatar {
+.titulo-principal-qatar {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
+    border: solid black;
 }
+
+
 
 .div_goles {
     display: flex;
@@ -367,6 +413,7 @@ main section h4 {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
     width: 200px;
+    border: solid black;
 }
 
 /* Orden qatar 2022 videos */
@@ -388,6 +435,7 @@ main section h4 {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
     width: 600px;
+    border: solid black;
 }
 
 /* Todos los goles */
@@ -403,6 +451,7 @@ main section h4 {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
     width: 600px;
+    border: solid black;
 }
 
 /* Estadisticas */
@@ -414,6 +463,7 @@ main section h4 {
     margin: 20px;
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
+    border: solid black;
 }
 
 /* Listas */
@@ -432,6 +482,7 @@ main section h4 {
     padding: 10px;
     margin: 10px;
     text-align: center;
+    border: solid black;
 }
 
 /* Foto */
@@ -451,6 +502,7 @@ main section h4 {
     margin: 10px;
     padding: 10px;
     text-align: center;
+    border: solid black;
 }
 
 .asistidoresfoto {
@@ -473,6 +525,7 @@ main section h4 {
     margin: 10px;
     padding: 10px;
     text-align: center;
+    border: solid black;
 }
 
 .records_texto {
@@ -528,7 +581,7 @@ main section h4 {
 /* Textos de las listas */
 .champ-textos-listas {
     color: black;
-    background-color: rgba(255, 255, 255, 0.719);
+    background-color: rgba(255, 255, 255, 0.603);
     border-radius: 10px;
     border: solid black;
     margin: 5px;
@@ -581,7 +634,7 @@ main section h4 {
 
     .titulo_champ {
         color: black;
-        background-color: rgba(255, 255, 255, 0.719);
+        background-color: rgba(255, 255, 255, 0.603);
         border-radius: 10px;
         border: solid black;
         padding: 10px;
@@ -592,9 +645,7 @@ main section h4 {
         border: solid rgb(34, 34, 236);
     }
 
-    .champ-titulos-listas:hover {
-        color: rgb(34, 34, 236);
-    }
+
 
     .champions-listas {
         display: grid;
@@ -603,9 +654,6 @@ main section h4 {
         padding-left: 20px;
     }
 
-    .champions-listas:hover {
-        color: rgb(34, 34, 236);
-    }
 
     .champ-primerfila {
         display: flex;
@@ -620,6 +668,13 @@ main section h4 {
         justify-content: space-around;
     }
 
+    .cruces {
+        background-color: rgba(255, 255, 255, 0.603);
+        border-radius: 10px;
+        border: solid black;
+        margin-bottom: 10px;
+    }
+
     .foto.cruces {
         display: block;
         width: 600px;
@@ -632,7 +687,7 @@ main section h4 {
 .primera-titulos {
     display: flex;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.719);
+    background-color: rgba(255, 255, 255, 0.603);
     border-radius: 10px;
     border: solid black;
     padding: 10px;
@@ -641,8 +696,12 @@ main section h4 {
 .primera-actualidad {
     text-align: center;
     font-size: 35px;
-    background-color: rgba(255, 255, 255, 0.719);
+    background-color: rgba(255, 255, 255, 0.603);
     border: solid black;
+    border-radius: 10px;
+}
+
+.bloque-losmasganadores {
     border-radius: 10px;
 }
 
@@ -652,7 +711,7 @@ main section h4 {
 }
 
 .primera-losmasganadores {
-    background-color: rgba(255, 255, 255, 0.719);
+    background-color: rgba(255, 255, 255, 0.603);
     border-radius: 10px;
     border: solid black;
     padding: 10px;
@@ -662,6 +721,7 @@ main section h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .primera-goleadores {
@@ -681,7 +741,7 @@ main section h4 {
 }
 
 .primera-clasicos-bg {
-    background-color: rgba(255, 255, 255, 0.719);
+    background-color: rgba(255, 255, 255, 0.603);
     border-radius: 10px;
     border: solid black;
 }
@@ -708,6 +768,8 @@ main section h4 {
 
 @media (min-width: 1000px) {
 
+    /* BG */
+
     /* Primera fila */
     .primera-primerafila {
         display: flex;
@@ -726,12 +788,16 @@ main section h4 {
     }
 
     .tabla-posiciones {
-        background-color: white;
         border-radius: 10px;
     }
 }
 
 /* ================= Contactos ================ */
+
+.titulos-contactos {
+    border-bottom: solid black;
+}
+
 .banner_contacto {
     width: 100%;
 }
@@ -776,6 +842,31 @@ main section h4 {
     border: rgb(0, 118, 253) solid 1px;
 }
 
+/* Botones */
+
+.button1 {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.button1:hover {
+    color: black;
+    background-color: gray;
+}
+
+.button2 {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.button2:hover {
+    color: black;
+    background-color: gray;
+}
 
 @media (max-width: 800px) {
 
@@ -806,6 +897,10 @@ main section h4 {
     }
 
     .objetivo-area-texto {
+        display: none;
+    }
+
+    .button2 {
         display: none;
     }
 }
