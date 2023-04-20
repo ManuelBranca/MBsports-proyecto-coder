@@ -4,7 +4,7 @@
 .titulo-principal-qatar {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
-    border: solid black;
+    border: $borde-gral;
 }
 
 .div_goles {
@@ -19,7 +19,7 @@
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
     width: 200px;
-    border: solid black;
+    border: $borde-gral;
 }
 
 /* Orden qatar 2022 videos */
@@ -40,8 +40,8 @@
 .div_mejoresgoles {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
-    width: 600px;
-    border: solid black;
+    width: fit-content;
+    border: $borde-gral;
 }
 
 /* Todos los goles */
@@ -56,8 +56,8 @@
 .div_todoslosgoles {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
-    width: 600px;
-    border: solid black;
+    width: fit-content;
+    border: $borde-gral;
 }
 
 /* Estadisticas */
@@ -69,7 +69,7 @@
     margin: 20px;
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
-    border: solid black;
+    border: $borde-gral;
 }
 
 /* Listas */
@@ -88,7 +88,7 @@
     padding: 10px;
     margin: 10px;
     text-align: center;
-    border: solid black;
+    border: $borde-gral;
 }
 
 /* Foto */
@@ -108,7 +108,7 @@
     margin: 10px;
     padding: 10px;
     text-align: center;
-    border: solid black;
+    border: $borde-gral;
 }
 
 .asistidoresfoto {
@@ -131,7 +131,7 @@
     margin: 10px;
     padding: 10px;
     text-align: center;
-    border: solid black;
+    border: $borde-gral;
 }
 
 .records_texto {
@@ -147,11 +147,12 @@
 }
 
 /* Mobile  */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     .blk_videos {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .video_mejoresgoles {
@@ -159,7 +160,7 @@
     }
 
     .div_mejoresgoles {
-        width: 350px;
+        width: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -167,18 +168,72 @@
 
     .video_todoslosgoles {
         width: 300px;
-
     }
 
     .div_todoslosgoles {
-        width: 350px;
+        width: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 5px;
     }
 
     .div_listasqatar {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .goleadoresqatar{
+        width: fit-content;
+        
+    }
+
+    .asistidores{
+        width: fit-content;
+    }
+
+    .records{
+        width: fit-content;
+    }
+
+
+}
+
+// TABLET 
+
+@media (min-width: 601px) and (max-width: 1150px){
+    .blk_videos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_mejoresgoles{
+        text-align: center;
+    }
+
+    .div_todoslosgoles{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .div_listasqatar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .goleadoresqatar{
+        width: fit-content;
+        
+    }
+
+    .asistidores{
+        width: fit-content;
+    }
+
+    .records{
+        width: fit-content;
     }
 }

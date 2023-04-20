@@ -3,7 +3,6 @@
 /* Img principal index */
 .img_principal {
     width: 98.7vw;
-    ;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
@@ -18,9 +17,9 @@
 .qs_blk {
     padding: 5px;
     margin: 10px;
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color: $color-principal;
     border-radius: 20px;
-    border: solid black;
+    border: $borde-gral;
 }
 
 /* titulo Quienes somos */
@@ -41,9 +40,9 @@
 
 /* Nuestro objetivo div */
 .no_div {
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
-    border: solid black;
+    border: $borde-gral;
     margin: 50px;
     display: flex;
     justify-content: start;
@@ -73,8 +72,8 @@
 .no_titulo {
     text-align: center;
     padding: 5px;
-    border-bottom: solid black 1px;
-    border-top: solid black 1px;
+    border-bottom: $borde-gral;
+    border-top: $borde-gral;
 }
 
 .no_texto {
@@ -98,9 +97,9 @@
 }
 
 .art_df2 {
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
-    border: solid black;
+    border: $borde-gral;
     width: 310px;
 }
 
@@ -109,8 +108,8 @@
     text-align: center;
     padding: 5px;
     margin: 5px;
-    border-bottom: solid black 1px;
-    border-top: solid black 1px;
+    border-bottom: $borde-gral;
+    border-top: $borde-gral;
 }
 
 /* texto DF */
@@ -134,9 +133,9 @@
 }
 
 .tc_div2 {
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
-    border: solid black;
+    border: $borde-gral;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
@@ -160,8 +159,8 @@
     margin: 10px;
     margin-top: 0px;
     padding: 5px;
-    border-bottom: solid black 1px;
-    border-top: solid black 1px;
+    border-bottom: $borde-gral;
+    border-top: $borde-gral;
 }
 
 /* Texto titulo cualquiera */
@@ -207,16 +206,18 @@
 }
 
 @media (min-width: 1024px) {
+    // Nuestro objetivo
     .art-no{
         margin-bottom: 5px;
     }
 
     .no_div{
-        background-color: rgba(247, 241, 241, 0.795);
-        border: none;
+        background-color: $color-principal;
+        border: $borde-gral;
         border-radius: 200px;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 100px;
         align-items: center;
         width: auto;
         margin-left: 1px;
@@ -231,10 +232,74 @@
     }
 
     .no_foto{
-        width: 500px;
+        width: 400px;
     }
 
     .no_texto{
         height: auto;
     }
+    
+    // Nuestro deporte favorito
+    
+    .art_df{
+        background-color:$color-principal;
+        border-radius: 200px;
+        border: $borde-gral;
+    }
+    
+    .art_df2{
+        margin-left: 1px;
+        margin-right: 1px;
+        background-color: rgba(0, 128, 0, 0);
+        display: flex;
+        flex-direction: row-reverse;
+        width: auto;
+        border: none;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+    }
+
+    .df_foto{
+        width: 400px;
+    }
+
+    .df-blk{
+        display: flex;
+        flex-direction: column;
+    }
+
+    // Como surgio la idea
+
+    .tc_div{
+        background-color:$color-principal;
+        border-radius: 200px;
+        margin-left: 1px;
+        margin-right: 1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        border: $borde-gral;       
+    }
+
+    .tc_div2{
+        
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        background-color:rgba(0, 0, 0, 0);
+        border: none;
+    }
+
+    .tc_foto{
+        width: 400px;
+    }
+
+    .tc-blk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }

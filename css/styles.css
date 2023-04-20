@@ -8,8 +8,8 @@ footer {
   margin: 20px;
   background-color: rgba(255, 255, 255, 0.603);
   padding: 3px;
-  border-top: white solid 10px;
-  border-bottom: white solid 10px;
+  border-top: white solid 2px;
+  border-bottom: white solid 2px;
 }
 
 .edicion-footer {
@@ -192,7 +192,7 @@ main section h4 {
   text-align: center;
   margin: 5px;
   padding: 10px;
-  border-bottom: solid black;
+  border-bottom: solid black 1px;
 }
 
 @media (max-width: 600px) {
@@ -236,7 +236,7 @@ main section h4 {
   margin: 10px;
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
-  border: solid black;
+  border: solid black 1px;
 }
 
 /* titulo Quienes somos */
@@ -255,7 +255,7 @@ main section h4 {
 .no_div {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
-  border: solid black;
+  border: solid black 1px;
   margin: 50px;
   display: flex;
   justify-content: start;
@@ -308,7 +308,7 @@ main section h4 {
 .art_df2 {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
-  border: solid black;
+  border: solid black 1px;
   width: 310px;
 }
 
@@ -343,7 +343,7 @@ main section h4 {
 .tc_div2 {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
-  border: solid black;
+  border: solid black 1px;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
@@ -410,11 +410,12 @@ main section h4 {
     margin-bottom: 5px;
   }
   .no_div {
-    background-color: rgba(247, 241, 241, 0.795);
-    border: none;
+    background-color: rgba(255, 255, 255, 0.603);
+    border: solid black 1px;
     border-radius: 200px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
     align-items: center;
     width: auto;
     margin-left: 1px;
@@ -427,10 +428,60 @@ main section h4 {
     justify-content: center;
   }
   .no_foto {
-    width: 500px;
+    width: 400px;
   }
   .no_texto {
     height: auto;
+  }
+  .art_df {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 200px;
+    border: solid black 1px;
+  }
+  .art_df2 {
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: rgba(0, 128, 0, 0);
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    border: none;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+  }
+  .df_foto {
+    width: 400px;
+  }
+  .df-blk {
+    display: flex;
+    flex-direction: column;
+  }
+  .tc_div {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 200px;
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid black 1px;
+  }
+  .tc_div2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+  .tc_foto {
+    width: 400px;
+  }
+  .tc-blk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 /* ============= Qatar 2022 =============== */
@@ -438,7 +489,7 @@ main section h4 {
 .titulo-principal-qatar {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
-  border: solid black;
+  border: solid black 1px;
 }
 
 .div_goles {
@@ -453,7 +504,7 @@ main section h4 {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
   width: 200px;
-  border: solid black;
+  border: solid black 1px;
 }
 
 /* Orden qatar 2022 videos */
@@ -473,8 +524,8 @@ main section h4 {
 .div_mejoresgoles {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
-  width: 600px;
-  border: solid black;
+  width: fit-content;
+  border: solid black 1px;
 }
 
 /* Todos los goles */
@@ -488,8 +539,8 @@ main section h4 {
 .div_todoslosgoles {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
-  width: 600px;
-  border: solid black;
+  width: fit-content;
+  border: solid black 1px;
 }
 
 /* Estadisticas */
@@ -500,7 +551,7 @@ main section h4 {
   margin: 20px;
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
-  border: solid black;
+  border: solid black 1px;
 }
 
 /* Listas */
@@ -517,7 +568,7 @@ main section h4 {
   padding: 10px;
   margin: 10px;
   text-align: center;
-  border: solid black;
+  border: solid black 1px;
 }
 
 /* Foto */
@@ -537,7 +588,7 @@ main section h4 {
   margin: 10px;
   padding: 10px;
   text-align: center;
-  border: solid black;
+  border: solid black 1px;
 }
 
 .asistidoresfoto {
@@ -558,7 +609,7 @@ main section h4 {
   margin: 10px;
   padding: 10px;
   text-align: center;
-  border: solid black;
+  border: solid black 1px;
 }
 
 .records_texto {
@@ -574,16 +625,17 @@ main section h4 {
 }
 
 /* Mobile  */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .blk_videos {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .video_mejoresgoles {
     width: 300px;
   }
   .div_mejoresgoles {
-    width: 350px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -592,14 +644,53 @@ main section h4 {
     width: 300px;
   }
   .div_todoslosgoles {
-    width: 350px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5px;
   }
   .div_listasqatar {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .goleadoresqatar {
+    width: fit-content;
+  }
+  .asistidores {
+    width: fit-content;
+  }
+  .records {
+    width: fit-content;
+  }
+}
+@media (min-width: 601px) and (max-width: 1150px) {
+  .blk_videos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .div_mejoresgoles {
+    text-align: center;
+  }
+  .div_todoslosgoles {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .div_listasqatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .goleadoresqatar {
+    width: fit-content;
+  }
+  .asistidores {
+    width: fit-content;
+  }
+  .records {
+    width: fit-content;
   }
 }
 /* ============== Champions ================== */

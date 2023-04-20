@@ -10,7 +10,7 @@
 
 /* Color del fondo */
 body {
-    background-color: gray;
+    background-color: $fondo;
 }
 
 h1 {
@@ -101,7 +101,7 @@ main {
     text-align: center;
     margin: 5px;
     padding: 10px;
-    border-bottom: solid black;
+    border-bottom: solid black 1px;
 }
 
 @media (max-width: 600px) {
