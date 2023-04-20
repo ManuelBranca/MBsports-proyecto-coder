@@ -1,0 +1,114 @@
+/* ================= Primera ================= */
+/* &&&&&&&&&&&&&&&&& mobile first &&&&&&&&&&&&& */
+.primera-titulos {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 10px;
+    border: solid black;
+    padding: 10px;
+}
+
+.primera-actualidad {
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.603);
+    border: solid black;
+    border-radius: 10px;
+}
+
+.bloque-losmasganadores {
+    border-radius: 10px;
+}
+
+.div-losmasganadores {
+    display: flex;
+    justify-content: center;
+}
+
+.primera-losmasganadores {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 10px;
+    border: solid black;
+    padding: 10px;
+}
+
+.tabla-posiciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.primera-goleadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primera-clasicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.primera-clasicos-bg {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 10px;
+    border: solid black;
+}
+
+.primera-clasicos-bg {
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.lista-clasicos {
+    padding-bottom: 10px;
+    display: block;
+    text-align: start;
+
+}
+
+.img-tabla {
+    display: flex;
+    justify-content: center;
+}
+
+.img-ultimos-campeones {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1000px) {
+
+    /* BG */
+
+    /* Primera fila */
+    .primera-primerafila {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Segunda fila */
+
+    .primera-segundafila {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .tabla-posiciones {
+        border-radius: 10px;
+    }
+}

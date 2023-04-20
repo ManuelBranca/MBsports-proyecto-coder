@@ -1,0 +1,134 @@
+/* Generales */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Color del fondo */
+body {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin: 20px 10px;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    h1 {
+        background-color: black;
+        color: gray;
+        padding: 5px;
+        border-radius: 10px;
+    }
+}
+
+/* tipografia de titulos secundarios y separacion de los textos o fotos*/
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 7px;
+}
+
+/* tipografia de textos */
+p {
+    font-family: sans-serif;
+}
+
+/* tipografias de links */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Barra de navegacion */
+nav {
+    ul {
+        div {
+            background-color: rgba(255, 255, 255, 0.603);
+            list-style: none;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-weight: bold;
+            font-size: 20px;
+            border: black 1px solid;
+            border-radius: 20px;
+            padding: 5px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+}
+
+/* img 300px (temporal) */
+figure {
+    img {
+        width: 300px;
+    }
+}
+
+/* Centro el texto */
+.centrado {
+    text-align: center;
+    margin: 20px;
+}
+
+/* tamaño de las detras de los titulos*/
+main {
+    h3 {
+        font-size: 30px;
+    }
+
+    section {
+        h4 {
+            font-size: 23px;
+        }
+    }
+}
+
+
+.h5_tam {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-bottom: solid black;
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        ul {
+            font-size: 0.8rem;
+            flex-direction: column;
+            align-items: center;
+            border: none;
+            background-color: gray;
+
+            div {
+                background-color: rgba(255, 255, 255, 0.603);
+                border: solid 2px black;
+                border-radius: 15px;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            li {
+                margin: 3px;
+                padding: 3px;
+                border: solid rgba(0, 0, 0, 0.459);
+                border-radius: 20px;
+                text-align: center;
+            }
+        }
+    }
+}

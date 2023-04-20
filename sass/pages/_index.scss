@@ -1,0 +1,240 @@
+/* Index */
+
+/* Img principal index */
+.img_principal {
+    width: 98.7vw;
+    ;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .img_principal {
+        border: solid rgba(78, 76, 76, 0.507) 3px;
+        border-radius: 10px;
+    }
+}
+
+/* Quienes somos */
+
+.qs_blk {
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    border: solid black;
+}
+
+/* titulo Quienes somos */
+.qs_titulo {
+    text-align: center;
+}
+
+/* Texto quienes somos */
+.qs_texto {
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+/* Nuestro objetivo */
+
+
+
+/* Nuestro objetivo div */
+.no_div {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    border: solid black;
+    margin: 50px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 300px;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+
+    /* Hay que moverlo al medio */
+    .art-no {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .no_div {
+        /* justify-content: center; */
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Nuestro objetivo texto y titulo */
+
+.no_titulo {
+    text-align: center;
+    padding: 5px;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+}
+
+.no_texto {
+    padding: 10px;
+    padding-right: 15px;
+    text-align: justify;
+    width: 300px;
+    margin: 5px;
+    font-size: 1rem;
+}
+
+/* Nuestro deporte favorito */
+/* Nuestro deporte favorito (intento de poner derecho) */
+.art_df {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.art_df2 {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    border: solid black;
+    width: 310px;
+}
+
+/* titulo DF */
+.tt_df {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+}
+
+/* texto DF */
+
+.t_df {
+    text-align: justify;
+    margin: 5px;
+    padding-right: 5px;
+    width: 300px;
+    font-size: 1rem;
+}
+
+/* Titulo cualquiera */
+/* Titulo cualquiera div */
+.tc_div {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: end;
+}
+
+.tc_div2 {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    border: solid black;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+
+    .tc_div {
+        align-items: center;
+    }
+
+    .tc_div2 {
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+
+    }
+}
+
+/* Titulo titulo cualquiera */
+.titulo_tc {
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 5px;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+}
+
+/* Texto titulo cualquiera */
+.texto_tc {
+    width: 300px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+/* IMAGENES INDEX */
+/* img Nuestro objetivo */
+.no_foto {
+    padding: 10px;
+    padding-left: 3px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+/* img deporte favorito */
+.df_foto {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding-right: 5px;
+}
+
+/* img titulo cualquiera */
+.tc_foto {
+    margin: 10px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+@media (max-width: 600px) {
+
+
+    .no_foto {
+        padding: 0px;
+        padding: 10px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .art-no{
+        margin-bottom: 5px;
+    }
+
+    .no_div{
+        background-color: rgba(247, 241, 241, 0.795);
+        border: none;
+        border-radius: 200px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: auto;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+    .no_blk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .no_foto{
+        width: 500px;
+    }
+
+    .no_texto{
+        height: auto;
+    }
+}

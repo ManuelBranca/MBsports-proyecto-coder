@@ -1,0 +1,121 @@
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.603);
+    padding: 3px;
+    border-top: white solid 10px;
+    border-bottom: white solid 10px;
+}
+
+.edicion-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creadores-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 5px;
+    gap: 10px;
+
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 200px;
+}
+
+.logo2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 200px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+
+    .tiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 3px;
+        padding: 6px 0;
+        position: absolute;
+        z-index: 1;
+        box-shadow: 0 5px 10px #555;
+    }
+
+    .tiptext::after {
+        content: "";
+        position: absolute;
+        border-width: 5px;
+        border-style: solid;
+    }
+
+    &:hover .tiptext {
+        visibility: visible;
+    }
+
+    &.top {
+        .tiptext {
+            margin-left: -60px;
+            bottom: 150%;
+            left: 50%;
+        }
+
+        .tiptext::after {
+            margin-left: -5px;
+            top: 100%;
+            left: 50%;
+            border-color: #555 transparent transparent transparent;
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+
+    footer {
+        flex-direction: column;
+    }
+
+    .creadores-footer {
+        text-align: center;
+        margin: 3px;
+    }
+
+    .redes-footer {
+        text-align: center;
+    }
+
+    .edicion-footer {
+        display: none;
+    }
+
+    .div-logos {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .tooltiptext {
+        display: none;
+    }
+}

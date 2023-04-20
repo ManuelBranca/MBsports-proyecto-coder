@@ -1,0 +1,184 @@
+/* ============= Qatar 2022 =============== */
+/* titulos principales */
+
+.titulo-principal-qatar {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    border: solid black;
+}
+
+.div_goles {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_goles {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    width: 200px;
+    border: solid black;
+}
+
+/* Orden qatar 2022 videos */
+
+.blk_videos {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Mejores goles */
+.video_mejoresgoles {
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.div_mejoresgoles {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    width: 600px;
+    border: solid black;
+}
+
+/* Todos los goles */
+
+.video_todoslosgoles {
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.div_todoslosgoles {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    width: 600px;
+    border: solid black;
+}
+
+/* Estadisticas */
+
+.estadisticas {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    border: solid black;
+}
+
+/* Listas */
+
+.div_listasqatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+/* Goleadores */
+.goleadoresqatar {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: solid black;
+}
+
+/* Foto */
+.goleadoresqatarfoto {
+    border-radius: 20px;
+}
+
+/* Lista */
+.goleadoresyasistidoresqatarlista {
+    list-style: none;
+}
+
+/* Maximos asistidores */
+.asistidores {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: solid black;
+}
+
+.asistidoresfoto {
+    border-radius: 20px;
+    height: 200px;
+}
+
+/* gya lista */
+
+.gyalista {
+
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Records de messi */
+.records {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: solid black;
+}
+
+.records_texto {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+
+.records_foto {
+    border-radius: 20px;
+    height: 200px;
+}
+
+/* Mobile  */
+@media (max-width: 500px) {
+
+    .blk_videos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video_mejoresgoles {
+        width: 300px;
+    }
+
+    .div_mejoresgoles {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video_todoslosgoles {
+        width: 300px;
+
+    }
+
+    .div_todoslosgoles {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_listasqatar {
+        display: flex;
+        flex-direction: column;
+    }
+}

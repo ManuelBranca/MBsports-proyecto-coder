@@ -1,0 +1,121 @@
+/* ================= Contactos ================ */
+
+.titulos-contactos {
+    border-bottom: solid black;
+}
+
+.banner_contacto {
+    width: 100%;
+}
+
+/* Opiniones y buscamos... */
+.papa_opinionesyb {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.sec_cont {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    text-align: center;
+    width: 600px;
+}
+
+.texto_opinionesyb {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+/* Buscamos desarrolladores - deje su objetivo */
+.texto-cv {
+    display: none;
+}
+
+.area-texto {
+    padding: 10px;
+}
+
+.opinion-aqui:hover {
+    border: rgb(0, 118, 253) solid 1px;
+}
+
+.objetivo-area-texto:hover {
+    border: rgb(0, 118, 253) solid 1px;
+}
+
+/* Botones */
+
+.button1 {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+
+    &:hover {
+        color: black;
+        background-color: gray;
+    }
+}
+
+
+
+.button2 {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+
+    &:hover {
+        color: black;
+        background-color: gray;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+
+    /* Curriculum */
+    .curriculum {
+        display: none;
+    }
+
+    .texto-cv {
+        display: block;
+        background-color: black;
+        border: solid white 5px;
+        border-radius: 10px;
+        color: white;
+        padding: 5px;
+        
+        &:hover {
+            color: red;
+            border: red solid 5px;
+        }
+    }
+
+
+    /* objetivo */
+
+    .objetivo {
+        display: none;
+    }
+
+    .objetivo-area-texto {
+        display: none;
+    }
+
+    .button2 {
+        display: none;
+    }
+}
+
+.bd {
+    display: flex;
+    flex-direction: column;
+}

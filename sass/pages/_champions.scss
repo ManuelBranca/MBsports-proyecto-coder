@@ -1,0 +1,140 @@
+/* ============== Champions ================== */
+/* Mobile first */
+/* &&&&&&&&&& Celular 320 a 600 &&&&&&&&&&&& */
+/* Orden champions.html */
+
+/* Imagen principal */
+.img_champ {
+    width: 98vw;
+    margin: 1px;
+}
+
+/* listas */
+.champions-listas {
+    display: grid;
+    justify-content: center;
+    /* margin-left: 25vw; */
+    text-align: justify;
+    padding: 5px;
+    margin-left: 3px;
+}
+
+/* Orden */
+.orden_champ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Titulos de las listas */
+.champ-titulos-listas {
+    background-color: black;
+    border: solid rgba(255, 255, 255, 0.568);
+    border-radius: 10px;
+    color: white;
+}
+
+/* Textos de las listas */
+.champ-textos-listas {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 10px;
+    border: solid black;
+    margin: 5px;
+}
+
+.prueba {
+    text-align: center;
+}
+
+.foto-cruces2 {
+    display: none;
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+
+    /* listas */
+    .champions-listas {
+        display: grid;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .champ-textos-listas {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    /* Primera fila */
+    .champ-primerfila {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        /* flex-flow: row nowrap; */
+    }
+
+    /* segunda fila */
+    .champ-segundafila {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    /* foto de los cruces */
+    /* .foto.cruces{*/
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    .titulo_champ {
+        color: black;
+        background-color: rgba(255, 255, 255, 0.603);
+        border-radius: 10px;
+        border: solid black;
+        padding: 10px;
+    }
+
+    .titulo_champ:hover {
+        color: rgb(34, 34, 236);
+        border: solid rgb(34, 34, 236);
+    }
+
+
+
+    .champions-listas {
+        display: grid;
+        justify-content: center;
+        text-align: justify;
+        padding-left: 20px;
+    }
+
+
+    .champ-primerfila {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .champ-segundafila {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .cruces {
+        background-color: rgba(255, 255, 255, 0.603);
+        border-radius: 10px;
+        border: solid black;
+        margin-bottom: 10px;
+    }
+
+    .foto.cruces {
+        display: block;
+        width: 600px;
+        height: 500px;
+    }
+}

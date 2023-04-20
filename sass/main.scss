@@ -1,0 +1,23 @@
+// sass --watch sass/main.scss css/styles.css
+
+// Components 
+// variables
+@import "./components/variables";
+
+// footer
+@import "./components/footer";
+
+// Pages
+@import "./base";
+
+@import "./pages/index";
+
+@import "./pages/qatar2022";
+
+@import "./pages/champions";
+
+@import "./pages/primera";
+
+@import "./pages/contactos";
+
+
