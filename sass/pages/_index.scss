@@ -5,6 +5,9 @@
     width: 98.7vw;
 }
 
+.altura-carousel{
+    height: 345px;
+}
 @media (min-width: 0px) and (max-width: 600px) {
     .img_principal {
         border: solid rgba(78, 76, 76, 0.507) 3px;
@@ -267,6 +270,7 @@
     .df-blk{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     // Como surgio la idea

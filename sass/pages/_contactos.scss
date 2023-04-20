@@ -1,7 +1,7 @@
 /* ================= Contactos ================ */
 
 .titulos-contactos {
-    border-bottom: solid black;
+    border-bottom: solid black 1px;
 }
 
 .banner_contacto {
@@ -40,12 +40,30 @@
     padding: 10px;
 }
 
-.opinion-aqui:hover {
-    border: rgb(0, 118, 253) solid 1px;
+.opinion-aqui {
+    resize: none;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+
+    &:hover {
+        border: rgb(0, 118, 253) solid 1px;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
 }
 
-.objetivo-area-texto:hover {
-    border: rgb(0, 118, 253) solid 1px;
+.objetivo-area-texto {
+    resize: none;
+    height: 100px;
+    border-radius: 10px;
+
+    &:hover {
+        border: rgb(0, 118, 253) solid 1px;
+    }
 }
 
 /* Botones */
@@ -55,10 +73,13 @@
     color: white;
     background-color: black;
     margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
 
     &:hover {
         color: black;
         background-color: gray;
+        transform: scale(1.1);
     }
 }
 
@@ -69,10 +90,13 @@
     color: white;
     background-color: black;
     margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
 
     &:hover {
         color: black;
         background-color: gray;
+        transform: scale(1.1);
     }
 }
 
@@ -86,13 +110,15 @@
     }
 
     .texto-cv {
-        display: block;
+        display: flex;
+        align-items: center;
         background-color: black;
         border: solid white 5px;
         border-radius: 10px;
         color: white;
         padding: 5px;
-        
+        margin-bottom: 0px;
+
         &:hover {
             color: red;
             border: red solid 5px;

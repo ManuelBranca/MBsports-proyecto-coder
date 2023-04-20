@@ -4,8 +4,8 @@
 // variables
 @import "./components/variables";
 
-// footer
-@import "./components/footer";
+// Barra de navegacion
+@import "./components/nav";
 
 // Pages
 @import "./base";
@@ -20,4 +20,5 @@
 
 @import "./pages/contactos";
 
-
+// footer
+@import "./components/footer";

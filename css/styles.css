@@ -1,108 +1,44 @@
 @charset "UTF-8";
-/* footer */
-footer {
+/* Barra de navegacion */
+nav ul div {
+  background-color: rgba(255, 255, 255, 0.603);
+  list-style: none;
+  list-style-type: none;
   display: flex;
   flex-direction: row;
-  gap: 10px;
   justify-content: space-around;
-  margin: 20px;
-  background-color: rgba(255, 255, 255, 0.603);
-  padding: 3px;
-  border-top: white solid 2px;
-  border-bottom: white solid 2px;
+  font-weight: bold;
+  font-size: 20px;
+  border: black 1px solid;
+  border-radius: 20px;
+  padding: 5px;
 }
 
-.edicion-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.navegador {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.creadores-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.div-logos {
-  display: flex;
-  justify-content: space-around;
-  align-items: end;
-  margin-top: 5px;
-  gap: 10px;
-}
-
-.logo {
-  width: 35px;
-  height: 35px;
-  border-radius: 200px;
-}
-
-.logo2 {
-  width: 35px;
-  height: 35px;
-  border-radius: 200px;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-.tooltip .tiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 3px;
-  padding: 6px 0;
-  position: absolute;
-  z-index: 1;
-  box-shadow: 0 5px 10px #555;
-}
-.tooltip .tiptext::after {
-  content: "";
-  position: absolute;
-  border-width: 5px;
-  border-style: solid;
-}
-.tooltip:hover .tiptext {
-  visibility: visible;
-}
-.tooltip.top .tiptext {
-  margin-left: -60px;
-  bottom: 150%;
-  left: 50%;
-}
-.tooltip.top .tiptext::after {
-  margin-left: -5px;
-  top: 100%;
-  left: 50%;
-  border-color: #555 transparent transparent transparent;
-}
-
-@media (min-width: 0px) and (max-width: 600px) {
-  footer {
+@media (max-width: 600px) {
+  nav ul {
+    font-size: 0.8rem;
     flex-direction: column;
-  }
-  .creadores-footer {
-    text-align: center;
-    margin: 3px;
-  }
-  .redes-footer {
-    text-align: center;
-  }
-  .edicion-footer {
-    display: none;
-  }
-  .div-logos {
-    justify-content: center;
     align-items: center;
-    gap: 10px;
+    border: none;
+    background-color: gray;
   }
-  .tooltiptext {
-    display: none;
+  nav ul div {
+    background-color: rgba(255, 255, 255, 0.603);
+    border: solid 2px black;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+  nav ul li {
+    margin: 3px;
+    padding: 3px;
+    border: solid rgba(0, 0, 0, 0.459);
+    border-radius: 20px;
+    text-align: center;
   }
 }
 /* Generales */
@@ -110,6 +46,19 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.MBsports {
+  font-weight: bold;
+}
+
+.lista {
+  margin-bottom: 1px;
+  padding: 0px;
+}
+
+ul {
+  padding-left: 0px;
 }
 
 /* Color del fondo */
@@ -143,29 +92,17 @@ h5 {
 
 /* tipografia de textos */
 p {
-  font-family: sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* tipografias de links */
 a {
   text-decoration: none;
   color: black;
-}
-
-/* Barra de navegacion */
-nav ul div {
-  background-color: rgba(255, 255, 255, 0.603);
-  list-style: none;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-weight: bold;
-  font-size: 20px;
-  border: black 1px solid;
-  border-radius: 20px;
-  padding: 5px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /* img 300px (temporal) */
@@ -195,33 +132,14 @@ main section h4 {
   border-bottom: solid black 1px;
 }
 
-@media (max-width: 600px) {
-  nav ul {
-    font-size: 0.8rem;
-    flex-direction: column;
-    align-items: center;
-    border: none;
-    background-color: gray;
-  }
-  nav ul div {
-    background-color: rgba(255, 255, 255, 0.603);
-    border: solid 2px black;
-    border-radius: 15px;
-    flex-direction: column;
-    text-align: center;
-  }
-  nav ul li {
-    margin: 3px;
-    padding: 3px;
-    border: solid rgba(0, 0, 0, 0.459);
-    border-radius: 20px;
-    text-align: center;
-  }
-}
 /* Index */
 /* Img principal index */
 .img_principal {
   width: 98.7vw;
+}
+
+.altura-carousel {
+  height: 345px;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
@@ -456,6 +374,7 @@ main section h4 {
   .df-blk {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .tc_div {
     background-color: rgba(255, 255, 255, 0.603);
@@ -724,7 +643,8 @@ main section h4 {
 /* Titulos de las listas */
 .champ-titulos-listas {
   background-color: black;
-  border: solid rgba(255, 255, 255, 0.568);
+  padding: 3px;
+  border-bottom: solid white 1px;
   border-radius: 10px;
   color: white;
 }
@@ -734,7 +654,7 @@ main section h4 {
   color: black;
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 10px;
-  border: solid black;
+  border: solid black 1px;
   margin: 5px;
 }
 
@@ -774,12 +694,12 @@ main section h4 {
   /* foto de los cruces */
   /* .foto.cruces{*/
 }
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1200px) {
   .titulo_champ {
     color: black;
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 10px;
-    border: solid black;
+    border: solid black 1px;
     padding: 10px;
   }
   .titulo_champ:hover {
@@ -805,7 +725,7 @@ main section h4 {
   .cruces {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 10px;
-    border: solid black;
+    border: solid black 1px;
     margin-bottom: 10px;
   }
   .foto.cruces {
@@ -819,9 +739,11 @@ main section h4 {
 .primera-titulos {
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 10px;
-  border: solid black;
+  border: solid black 1px;
   padding: 10px;
 }
 
@@ -829,7 +751,7 @@ main section h4 {
   text-align: center;
   font-size: 35px;
   background-color: rgba(255, 255, 255, 0.603);
-  border: solid black;
+  border: solid black 1px;
   border-radius: 10px;
 }
 
@@ -845,7 +767,7 @@ main section h4 {
 .primera-losmasganadores {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 10px;
-  border: solid black;
+  border: solid black 1px;
   padding: 10px;
 }
 
@@ -873,7 +795,7 @@ main section h4 {
 .primera-clasicos-bg {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 10px;
-  border: solid black;
+  border: solid black 1px;
 }
 
 .primera-clasicos-bg ul {
@@ -898,7 +820,7 @@ main section h4 {
   justify-content: center;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 610px) {
   /* BG */
   /* Primera fila */
   .primera-primerafila {
@@ -918,9 +840,24 @@ main section h4 {
     border-radius: 10px;
   }
 }
+@media (min-width: 1024px) {
+  .primera-primerafila {
+    background-color: rgba(255, 255, 255, 0.603);
+    border-top: double black 1px;
+    padding: 5px;
+    margin: 0px;
+  }
+  .primera-segundafila {
+    background-color: rgba(185, 181, 181, 0.548);
+    border-top: double black 1px;
+    border-bottom: double black 1px;
+    margin: 0px;
+    padding-bottom: 5px;
+  }
+}
 /* ================= Contactos ================ */
 .titulos-contactos {
-  border-bottom: solid black;
+  border-bottom: solid black 1px;
 }
 
 .banner_contacto {
@@ -957,10 +894,24 @@ main section h4 {
   padding: 10px;
 }
 
+.opinion-aqui {
+  resize: none;
+  height: 100px;
+  border-radius: 10px;
+  background-color: white;
+}
 .opinion-aqui:hover {
   border: rgb(0, 118, 253) solid 1px;
 }
+.opinion-aqui:focus {
+  outline: none;
+}
 
+.objetivo-area-texto {
+  resize: none;
+  height: 100px;
+  border-radius: 10px;
+}
 .objetivo-area-texto:hover {
   border: rgb(0, 118, 253) solid 1px;
 }
@@ -971,10 +922,13 @@ main section h4 {
   color: white;
   background-color: black;
   margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
 }
 .button1:hover {
   color: black;
   background-color: gray;
+  transform: scale(1.1);
 }
 
 .button2 {
@@ -982,10 +936,13 @@ main section h4 {
   color: white;
   background-color: black;
   margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
 }
 .button2:hover {
   color: black;
   background-color: gray;
+  transform: scale(1.1);
 }
 
 @media (max-width: 800px) {
@@ -994,12 +951,14 @@ main section h4 {
     display: none;
   }
   .texto-cv {
-    display: block;
+    display: flex;
+    align-items: center;
     background-color: black;
     border: solid white 5px;
     border-radius: 10px;
     color: white;
     padding: 5px;
+    margin-bottom: 0px;
   }
   .texto-cv:hover {
     color: red;
@@ -1019,6 +978,118 @@ main section h4 {
 .bd {
   display: flex;
   flex-direction: column;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.603);
+  padding: 3px;
+  border-top: white solid 2px;
+  border-bottom: white solid 2px;
+}
+
+.titulo-footer {
+  margin: 0px;
+}
+
+.edicion-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.creadores-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin-top: 5px;
+  gap: 10px;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 200px;
+}
+
+.logo2 {
+  width: 35px;
+  height: 35px;
+  border-radius: 200px;
+}
+
+.tooltip1 {
+  position: relative;
+  display: inline-block;
+}
+.tooltip1 .tiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 6px 0;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 5px 10px #555;
+}
+.tooltip1 .tiptext1::after {
+  content: "";
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;
+}
+.tooltip1:hover .tiptext1 {
+  visibility: visible;
+}
+.tooltip1.top1 .tiptext1 {
+  margin-left: -60px;
+  bottom: 150%;
+  left: 50%;
+}
+.tooltip1.top1 .tiptext1::after {
+  margin-left: -5px;
+  top: 100%;
+  left: 50%;
+  border-color: #555 transparent transparent transparent;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
+  .creadores-footer {
+    text-align: center;
+    margin: 3px;
+  }
+  .redes-footer {
+    text-align: center;
+  }
+  .edicion-footer {
+    display: none;
+  }
+  .div-logos {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .tooltiptext {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

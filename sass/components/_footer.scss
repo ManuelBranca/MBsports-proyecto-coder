@@ -12,10 +12,15 @@ footer {
     border-bottom: white solid 2px;
 }
 
+.titulo-footer{
+    margin: 0px;
+}
+
 .edicion-footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px;
 }
 
 .creadores-footer {
@@ -46,11 +51,11 @@ footer {
     border-radius: 200px;
 }
 
-.tooltip {
+.tooltip1 {
     position: relative;
     display: inline-block;
 
-    .tiptext {
+    .tiptext1 {
         visibility: hidden;
         width: 120px;
         background-color: #555;
@@ -63,25 +68,25 @@ footer {
         box-shadow: 0 5px 10px #555;
     }
 
-    .tiptext::after {
+    .tiptext1::after {
         content: "";
         position: absolute;
         border-width: 5px;
         border-style: solid;
     }
 
-    &:hover .tiptext {
+    &:hover .tiptext1 {
         visibility: visible;
     }
 
-    &.top {
-        .tiptext {
+    &.top1 {
+        .tiptext1 {
             margin-left: -60px;
             bottom: 150%;
             left: 50%;
         }
 
-        .tiptext::after {
+        .tiptext1::after {
             margin-left: -5px;
             top: 100%;
             left: 50%;

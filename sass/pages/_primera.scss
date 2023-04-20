@@ -3,9 +3,11 @@
 .primera-titulos {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 10px;
-    border: solid black;
+    border: $borde-gral;
     padding: 10px;
 }
 
@@ -13,7 +15,7 @@
     text-align: center;
     font-size: 35px;
     background-color: rgba(255, 255, 255, 0.603);
-    border: solid black;
+    border: $borde-gral;
     border-radius: 10px;
 }
 
@@ -29,7 +31,7 @@
 .primera-losmasganadores {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 10px;
-    border: solid black;
+    border: $borde-gral;
     padding: 10px;
 }
 
@@ -59,7 +61,7 @@
 .primera-clasicos-bg {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 10px;
-    border: solid black;
+    border: $borde-gral;
 }
 
 .primera-clasicos-bg {
@@ -87,7 +89,7 @@
     justify-content: center;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 610px) {
 
     /* BG */
 
@@ -110,5 +112,22 @@
 
     .tabla-posiciones {
         border-radius: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .primera-primerafila{
+        background-color: $color-principal;
+        border-top: double black 1px;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .primera-segundafila{
+        background-color: rgba(185, 181, 181, 0.548);
+        border-top: double black 1px;
+        border-bottom: double black 1px;
+        margin: 0px;
+        padding-bottom: 5px;
     }
 }
