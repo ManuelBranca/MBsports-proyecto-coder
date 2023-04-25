@@ -88,7 +88,7 @@
 
 }
 
-@media (min-width: 1200px)  {
+@media (min-width: 1200px) {
 
     .titulo_champ {
         color: black;
@@ -96,12 +96,12 @@
         border-radius: 10px;
         border: $borde-gral;
         padding: 10px;
-        
+
         &:hover {
             color: rgb(34, 34, 236);
             border: solid rgb(34, 34, 236);
         }
-    
+
     }
 
     .champions-listas {

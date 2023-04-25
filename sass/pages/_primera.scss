@@ -115,15 +115,15 @@
     }
 }
 
-@media (min-width: 1024px) {
-    .primera-primerafila{
+@media (min-width: 625px) and (max-width: 1024px) {
+    .primera-primerafila {
         background-color: $color-principal;
         border-top: double black 1px;
         padding: 5px;
         margin: 0px;
     }
 
-    .primera-segundafila{
+    .primera-segundafila {
         background-color: rgba(185, 181, 181, 0.548);
         border-top: double black 1px;
         border-bottom: double black 1px;

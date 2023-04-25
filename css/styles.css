@@ -855,7 +855,7 @@ main section h4 {
     border-radius: 10px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 625px) and (max-width: 1024px) {
   .primera-primerafila {
     background-color: rgba(255, 255, 255, 0.603);
     border-top: double black 1px;

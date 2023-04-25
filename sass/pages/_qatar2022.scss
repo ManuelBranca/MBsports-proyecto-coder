@@ -184,16 +184,16 @@
         align-items: center;
     }
 
-    .goleadoresqatar{
+    .goleadoresqatar {
         width: fit-content;
-        
+
     }
 
-    .asistidores{
+    .asistidores {
         width: fit-content;
     }
 
-    .records{
+    .records {
         width: fit-content;
     }
 
@@ -202,17 +202,17 @@
 
 // TABLET 
 
-@media (min-width: 601px) and (max-width: 1150px){
-    .blk_videos{
+@media (min-width: 601px) and (max-width: 1150px) {
+    .blk_videos {
         flex-direction: column;
         align-items: center;
     }
 
-    .div_mejoresgoles{
+    .div_mejoresgoles {
         text-align: center;
     }
 
-    .div_todoslosgoles{
+    .div_todoslosgoles {
         text-align: center;
         margin-top: 5px;
     }
@@ -224,16 +224,16 @@
         flex-wrap: wrap;
     }
 
-    .goleadoresqatar{
+    .goleadoresqatar {
         width: fit-content;
-        
+
     }
 
-    .asistidores{
+    .asistidores {
         width: fit-content;
     }
 
-    .records{
+    .records {
         width: fit-content;
     }
 }

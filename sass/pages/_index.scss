@@ -5,22 +5,24 @@
     width: 98.7vw;
 }
 
-.altura-carousel{
+.altura-carousel {
     height: 345px;
 }
 
-@media (min-width: 340px) and (max-width: 400px){
-    .altura-carousel{
+@media (min-width: 340px) and (max-width: 400px) {
+    .altura-carousel {
         height: 100px;
     }
 }
-@media (min-width: 401px) and (max-width: 600px){
-    .altura-carousel{
+
+@media (min-width: 401px) and (max-width: 600px) {
+    .altura-carousel {
         height: 150px;
     }
 }
-@media  (min-width: 601px) and (max-width: 1100px){
-    .altura-carousel{
+
+@media (min-width: 601px) and (max-width: 1100px) {
+    .altura-carousel {
         height: 250px;
     }
 }
@@ -60,7 +62,7 @@
 
 /* Nuestro objetivo div */
 .no_div {
-    background-color:$color-principal;
+    background-color: $color-principal;
     border-radius: 20px;
     border: $borde-gral;
     margin: 50px;
@@ -117,7 +119,7 @@
 }
 
 .art_df2 {
-    background-color:$color-principal;
+    background-color: $color-principal;
     border-radius: 20px;
     border: $borde-gral;
     width: 310px;
@@ -153,7 +155,7 @@
 }
 
 .tc_div2 {
-    background-color:$color-principal;
+    background-color: $color-principal;
     border-radius: 20px;
     border: $borde-gral;
 }
@@ -226,12 +228,13 @@
 }
 
 @media (min-width: 1024px) {
+
     // Nuestro objetivo
-    .art-no{
+    .art-no {
         margin-bottom: 5px;
     }
 
-    .no_div{
+    .no_div {
         background-color: $color-principal;
         border: $borde-gral;
         border-radius: 200px;
@@ -244,30 +247,30 @@
         margin-right: 1px;
     }
 
-    .no_blk{
+    .no_blk {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .no_foto{
+    .no_foto {
         width: 400px;
     }
 
-    .no_texto{
+    .no_texto {
         height: auto;
     }
-    
+
     // Nuestro deporte favorito
-    
-    .art_df{
-        background-color:$color-principal;
+
+    .art_df {
+        background-color: $color-principal;
         border-radius: 200px;
         border: $borde-gral;
     }
-    
-    .art_df2{
+
+    .art_df2 {
         margin-left: 1px;
         margin-right: 1px;
         background-color: rgba(0, 128, 0, 0);
@@ -280,11 +283,11 @@
         align-items: center;
     }
 
-    .df_foto{
+    .df_foto {
         width: 400px;
     }
 
-    .df-blk{
+    .df-blk {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -292,32 +295,32 @@
 
     // Como surgio la idea
 
-    .tc_div{
-        background-color:$color-principal;
+    .tc_div {
+        background-color: $color-principal;
         border-radius: 200px;
         margin-left: 1px;
         margin-right: 1px;
         display: flex;
         flex-direction: row;
-        justify-content: center; 
-        border: $borde-gral;       
+        justify-content: center;
+        border: $borde-gral;
     }
 
-    .tc_div2{
-        
+    .tc_div2 {
+
         padding: 10px;
         display: flex;
         flex-direction: row;
         gap: 100px;
-        background-color:rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
         border: none;
     }
 
-    .tc_foto{
+    .tc_foto {
         width: 400px;
     }
 
-    .tc-blk{
+    .tc-blk {
         display: flex;
         flex-direction: column;
         align-items: center;
