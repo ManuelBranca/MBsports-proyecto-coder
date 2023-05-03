@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* Barra de navegacion */
 nav ul div {
   background-color: rgba(255, 255, 255, 0.603);
@@ -26,6 +27,7 @@ nav ul div {
     border: none;
     background-color: gray;
   }
+
   nav ul div {
     background-color: rgba(255, 255, 255, 0.603);
     border: solid 2px black;
@@ -33,6 +35,7 @@ nav ul div {
     flex-direction: column;
     text-align: center;
   }
+
   nav ul li {
     margin: 3px;
     padding: 3px;
@@ -41,6 +44,7 @@ nav ul div {
     text-align: center;
   }
 }
+
 /* Generales */
 * {
   margin: 0;
@@ -81,6 +85,7 @@ h1 {
     border-radius: 10px;
   }
 }
+
 /* tipografia de titulos secundarios y separacion de los textos o fotos*/
 h2,
 h3,
@@ -120,6 +125,7 @@ figure img {
 main h3 {
   font-size: 30px;
 }
+
 main section h4 {
   font-size: 23px;
 }
@@ -147,22 +153,26 @@ main section h4 {
     height: 100px;
   }
 }
+
 @media (min-width: 401px) and (max-width: 600px) {
   .altura-carousel {
     height: 150px;
   }
 }
+
 @media (min-width: 601px) and (max-width: 1100px) {
   .altura-carousel {
     height: 250px;
   }
 }
+
 @media (min-width: 0px) and (max-width: 600px) {
   .img_principal {
     border: solid rgba(78, 76, 76, 0.507) 3px;
     border-radius: 10px;
   }
 }
+
 /* Quienes somos */
 .qs_blk {
   padding: 5px;
@@ -170,6 +180,7 @@ main section h4 {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
   border: solid black 1px;
+  box-shadow: inset 0px 0px 10px 2px;
 }
 
 /* titulo Quienes somos */
@@ -188,21 +199,23 @@ main section h4 {
 .no_div {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
-  border: solid black 1px;
   margin: 50px;
   display: flex;
   justify-content: start;
   flex-direction: column;
   width: 300px;
+  box-shadow: inset 0px 0px 10px 3px;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
+
   /* Hay que moverlo al medio */
   .art-no {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
   }
+
   .no_div {
     /* justify-content: center; */
     margin: 10px;
@@ -210,6 +223,7 @@ main section h4 {
     align-items: center;
   }
 }
+
 /* Nuestro objetivo texto y titulo */
 .no_titulo {
   text-align: center;
@@ -236,6 +250,7 @@ main section h4 {
   justify-items: center;
   align-content: center;
   align-items: center;
+  box-shadow: inset 0px 0px 10px 3px;
 }
 
 .art_df2 {
@@ -271,6 +286,7 @@ main section h4 {
   flex-direction: column;
   /* justify-content: center; */
   align-items: end;
+  box-shadow: inset 0px 0px 10px 3px;
 }
 
 .tc_div2 {
@@ -283,12 +299,14 @@ main section h4 {
   .tc_div {
     align-items: center;
   }
+
   .tc_div2 {
     align-items: center;
     margin: 0px;
     padding: 0px;
   }
 }
+
 /* Titulo titulo cualquiera */
 .titulo_tc {
   width: 300px;
@@ -338,10 +356,12 @@ main section h4 {
     padding: 10px;
   }
 }
+
 @media (min-width: 1024px) {
   .art-no {
     margin-bottom: 5px;
   }
+
   .no_div {
     background-color: rgba(255, 255, 255, 0.603);
     border: solid black 1px;
@@ -354,23 +374,28 @@ main section h4 {
     margin-left: 1px;
     margin-right: 1px;
   }
+
   .no_blk {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+
   .no_foto {
     width: 400px;
   }
+
   .no_texto {
     height: auto;
   }
+
   .art_df {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 200px;
     border: solid black 1px;
   }
+
   .art_df2 {
     margin-left: 1px;
     margin-right: 1px;
@@ -383,14 +408,17 @@ main section h4 {
     gap: 100px;
     align-items: center;
   }
+
   .df_foto {
     width: 400px;
   }
+
   .df-blk {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .tc_div {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 200px;
@@ -401,6 +429,7 @@ main section h4 {
     justify-content: center;
     border: solid black 1px;
   }
+
   .tc_div2 {
     padding: 10px;
     display: flex;
@@ -409,21 +438,26 @@ main section h4 {
     background-color: rgba(0, 0, 0, 0);
     border: none;
   }
+
   .tc_foto {
     width: 400px;
   }
+
   .tc-blk {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
+
 /* ============= Qatar 2022 =============== */
 /* titulos principales */
 .titulo-principal-qatar {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
   border: solid black 1px;
+  padding: 10px;
+  box-shadow: inset 0px 0px 10px 1px;
 }
 
 .div_goles {
@@ -439,6 +473,7 @@ main section h4 {
   border-radius: 20px;
   width: 200px;
   border: solid black 1px;
+  box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Orden qatar 2022 videos */
@@ -460,6 +495,7 @@ main section h4 {
   border-radius: 20px;
   width: fit-content;
   border: solid black 1px;
+  box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Todos los goles */
@@ -475,6 +511,7 @@ main section h4 {
   border-radius: 20px;
   width: fit-content;
   border: solid black 1px;
+  box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Estadisticas */
@@ -486,6 +523,7 @@ main section h4 {
   background-color: rgba(255, 255, 255, 0.603);
   border-radius: 20px;
   border: solid black 1px;
+  box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Listas */
@@ -503,6 +541,7 @@ main section h4 {
   margin: 10px;
   text-align: center;
   border: solid black 1px;
+  box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Foto */
@@ -523,6 +562,7 @@ main section h4 {
   padding: 10px;
   text-align: center;
   border: solid black 1px;
+  box-shadow: inset 0px 0px 10px 1px;
 }
 
 .asistidoresfoto {
@@ -544,6 +584,7 @@ main section h4 {
   padding: 10px;
   text-align: center;
   border: solid black 1px;
+  box-shadow: inset 0px 0px 10px 1px;
 }
 
 .records_texto {
@@ -565,18 +606,22 @@ main section h4 {
     flex-direction: column;
     align-items: center;
   }
+
   .video_mejoresgoles {
     width: 300px;
   }
+
   .div_mejoresgoles {
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .video_todoslosgoles {
     width: 300px;
   }
+
   .div_todoslosgoles {
     width: 300px;
     display: flex;
@@ -584,49 +629,61 @@ main section h4 {
     align-items: center;
     margin-top: 5px;
   }
+
   .div_listasqatar {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .goleadoresqatar {
     width: fit-content;
   }
+
   .asistidores {
     width: fit-content;
   }
+
   .records {
     width: fit-content;
   }
 }
+
 @media (min-width: 601px) and (max-width: 1150px) {
   .blk_videos {
     flex-direction: column;
     align-items: center;
   }
+
   .div_mejoresgoles {
     text-align: center;
   }
+
   .div_todoslosgoles {
     text-align: center;
     margin-top: 5px;
   }
+
   .div_listasqatar {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
   }
+
   .goleadoresqatar {
     width: fit-content;
   }
+
   .asistidores {
     width: fit-content;
   }
+
   .records {
     width: fit-content;
   }
 }
+
 /* ============== Champions ================== */
 /* Mobile first */
 /* &&&&&&&&&& Celular 320 a 600 &&&&&&&&&&&& */
@@ -682,16 +739,19 @@ main section h4 {
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
+
   /* listas */
   .champions-listas {
     display: grid;
     justify-content: center;
     text-align: justify;
   }
+
   .champ-textos-listas {
     margin: 10px;
     padding: 15px;
   }
+
   /* Primera fila */
   .champ-primerfila {
     display: flex;
@@ -700,15 +760,18 @@ main section h4 {
     gap: 20px;
     /* flex-flow: row nowrap; */
   }
+
   /* segunda fila */
   .champ-segundafila {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
+
   /* foto de los cruces */
   /* .foto.cruces{*/
 }
+
 @media (min-width: 1200px) {
   .titulo_champ {
     color: black;
@@ -717,38 +780,45 @@ main section h4 {
     border: solid black 1px;
     padding: 10px;
   }
+
   .titulo_champ:hover {
     color: rgb(34, 34, 236);
     border: solid rgb(34, 34, 236);
   }
+
   .champions-listas {
     display: grid;
     justify-content: center;
     text-align: justify;
     padding-left: 20px;
   }
+
   .champ-primerfila {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
+
   .champ-segundafila {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
+
   .cruces {
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 10px;
     border: solid black 1px;
     margin-bottom: 10px;
   }
+
   .foto.cruces {
     display: block;
     width: 600px;
     height: 500px;
   }
 }
+
 /* ================= Primera ================= */
 /* &&&&&&&&&&&&&&&&& mobile first &&&&&&&&&&&&& */
 .primera-titulos {
@@ -836,6 +906,7 @@ main section h4 {
 }
 
 @media (min-width: 610px) {
+
   /* BG */
   /* Primera fila */
   .primera-primerafila {
@@ -844,6 +915,7 @@ main section h4 {
     justify-content: center;
     align-items: center;
   }
+
   /* Segunda fila */
   .primera-segundafila {
     display: flex;
@@ -851,10 +923,12 @@ main section h4 {
     justify-content: center;
     margin-bottom: 5px;
   }
+
   .tabla-posiciones {
     border-radius: 10px;
   }
 }
+
 @media (min-width: 625px) and (max-width: 1024px) {
   .primera-primerafila {
     background-color: rgba(255, 255, 255, 0.603);
@@ -862,6 +936,7 @@ main section h4 {
     padding: 5px;
     margin: 0px;
   }
+
   .primera-segundafila {
     background-color: rgba(185, 181, 181, 0.548);
     border-top: double black 1px;
@@ -870,6 +945,7 @@ main section h4 {
     padding-bottom: 5px;
   }
 }
+
 /* ================= Contactos ================ */
 .titulos-contactos {
   border-bottom: solid black 1px;
@@ -915,9 +991,11 @@ main section h4 {
   border-radius: 10px;
   background-color: white;
 }
+
 .opinion-aqui:hover {
   border: rgb(0, 118, 253) solid 1px;
 }
+
 .opinion-aqui:focus {
   outline: none;
 }
@@ -927,6 +1005,7 @@ main section h4 {
   height: 100px;
   border-radius: 10px;
 }
+
 .objetivo-area-texto:hover {
   border: rgb(0, 118, 253) solid 1px;
 }
@@ -940,6 +1019,7 @@ main section h4 {
   padding: 5px;
   border-radius: 5px;
 }
+
 .button1:hover {
   color: black;
   background-color: gray;
@@ -954,6 +1034,7 @@ main section h4 {
   padding: 5px;
   border-radius: 5px;
 }
+
 .button2:hover {
   color: black;
   background-color: gray;
@@ -961,10 +1042,12 @@ main section h4 {
 }
 
 @media (max-width: 800px) {
+
   /* Curriculum */
   .curriculum {
     display: none;
   }
+
   .texto-cv {
     display: flex;
     align-items: center;
@@ -975,21 +1058,26 @@ main section h4 {
     padding: 5px;
     margin-bottom: 0px;
   }
+
   .texto-cv:hover {
     color: red;
     border: red solid 5px;
   }
+
   /* objetivo */
   .objetivo {
     display: none;
   }
+
   .objetivo-area-texto {
     display: none;
   }
+
   .button2 {
     display: none;
   }
 }
+
 .bd {
   display: flex;
   flex-direction: column;
@@ -1050,6 +1138,7 @@ footer {
   position: relative;
   display: inline-block;
 }
+
 .tooltip1 .tiptext1 {
   visibility: hidden;
   width: 120px;
@@ -1062,20 +1151,24 @@ footer {
   z-index: 1;
   box-shadow: 0 5px 10px #555;
 }
+
 .tooltip1 .tiptext1::after {
   content: "";
   position: absolute;
   border-width: 5px;
   border-style: solid;
 }
+
 .tooltip1:hover .tiptext1 {
   visibility: visible;
 }
+
 .tooltip1.top1 .tiptext1 {
   margin-left: -60px;
   bottom: 150%;
   left: 50%;
 }
+
 .tooltip1.top1 .tiptext1::after {
   margin-left: -5px;
   top: 100%;
@@ -1087,21 +1180,26 @@ footer {
   footer {
     flex-direction: column;
   }
+
   .creadores-footer {
     text-align: center;
     margin: 3px;
   }
+
   .redes-footer {
     text-align: center;
   }
+
   .edicion-footer {
     display: none;
   }
+
   .div-logos {
     justify-content: center;
     align-items: center;
     gap: 10px;
   }
+
   .tooltiptext {
     display: none;
   }

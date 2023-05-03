@@ -5,11 +5,14 @@
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
     border: $borde-gral;
+    padding:  10px;
+    box-shadow: inset 0px 0px 10px 1px;
 }
 
 .div_goles {
     display: flex;
     justify-content: center;
+    
 }
 
 .titulo_goles {
@@ -20,6 +23,7 @@
     border-radius: 20px;
     width: 200px;
     border: $borde-gral;
+    box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Orden qatar 2022 videos */
@@ -42,6 +46,7 @@
     border-radius: 20px;
     width: fit-content;
     border: $borde-gral;
+    box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Todos los goles */
@@ -58,6 +63,7 @@
     border-radius: 20px;
     width: fit-content;
     border: $borde-gral;
+    box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Estadisticas */
@@ -70,6 +76,7 @@
     background-color: rgba(255, 255, 255, 0.603);
     border-radius: 20px;
     border: $borde-gral;
+    box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Listas */
@@ -89,6 +96,7 @@
     margin: 10px;
     text-align: center;
     border: $borde-gral;
+    box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Foto */
@@ -109,6 +117,7 @@
     padding: 10px;
     text-align: center;
     border: $borde-gral;
+    box-shadow: inset 0px 0px 10px 1px;
 }
 
 .asistidoresfoto {
@@ -132,6 +141,7 @@
     padding: 10px;
     text-align: center;
     border: $borde-gral;
+    box-shadow: inset 0px 0px 10px 1px;
 }
 
 .records_texto {
