@@ -2,11 +2,11 @@
 /* titulos principales */
 
 .titulo-principal-qatar {
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
-    border: $borde-gral;
     padding:  10px;
-    box-shadow: inset 0px 0px 10px 1px;
+    box-shadow: $sombra-interior-1px;
+    border: $borde-gral;
 }
 
 .div_goles {
@@ -19,11 +19,11 @@
     text-align: center;
     font-size: 30px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
     width: 200px;
+    box-shadow: $sombra-interior-1px;
     border: $borde-gral;
-    box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Orden qatar 2022 videos */
@@ -42,11 +42,10 @@
 }
 
 .div_mejoresgoles {
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
     width: fit-content;
-    border: $borde-gral;
-    box-shadow: inset 0px 0px 10px 1px;
+    box-shadow: $sombra-interior-1px;
 }
 
 /* Todos los goles */
@@ -59,11 +58,10 @@
 }
 
 .div_todoslosgoles {
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
     width: fit-content;
-    border: $borde-gral;
-    box-shadow: inset 0px 0px 10px 1px;
+    box-shadow: $sombra-interior-1px;
 }
 
 /* Estadisticas */
@@ -73,10 +71,10 @@
     text-align: center;
     padding: 10px;
     margin: 20px;
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
+    box-shadow: $sombra-interior-1px;
     border: $borde-gral;
-    box-shadow: inset 0px 0px 10px 1px;
 }
 
 /* Listas */
@@ -90,13 +88,12 @@
 
 /* Goleadores */
 .goleadoresqatar {
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
     text-align: center;
-    border: $borde-gral;
-    box-shadow: inset 0px 0px 10px 1px;
+    box-shadow: $sombra-interior-1px;
 }
 
 /* Foto */
@@ -111,13 +108,12 @@
 
 /* Maximos asistidores */
 .asistidores {
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
     text-align: center;
-    border: $borde-gral;
-    box-shadow: inset 0px 0px 10px 1px;
+    box-shadow: $sombra-interior-1px;
 }
 
 .asistidoresfoto {
@@ -135,13 +131,12 @@
 
 /* Records de messi */
 .records {
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:$color-principal;
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
     text-align: center;
-    border: $borde-gral;
-    box-shadow: inset 0px 0px 10px 1px;
+    box-shadow: $sombra-interior-1px;
 }
 
 .records_texto {
@@ -196,7 +191,6 @@
 
     .goleadoresqatar {
         width: fit-content;
-
     }
 
     .asistidores {

@@ -12,7 +12,7 @@ footer {
     border-bottom: white solid 2px;
 }
 
-.titulo-footer{
+.titulo-footer {
     margin: 0px;
 }
 
@@ -38,6 +38,50 @@ footer {
     gap: 10px;
 
 }
+
+
+$image-width: 35px;
+$duration: 0.5s;
+
+.temblar {
+    position: relative;
+    width: $image-width;
+    height: $image-width;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    &:hover img {
+        animation: shake #{$duration} cubic-bezier(.36, .07, .19, .97) both;
+    }
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
 
 .logo {
     width: 35px;
